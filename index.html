@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!----testddd-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width-device-width, initial-scale=1.0">
+    <title>Shayan Haque Personal Website </title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/ce1edb2775.js" crossorigin="anonymous"></script></head>
+  <body>
+    <div id = "header">
+        <div class = "container">
+            <nav>
+                <img src = "images/logo.png" class = "logo">
+                <ul id ="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                  <!--<li><a href = "#tutoring">Tutoring</a></li>--->  
+                    <li><a href = "#porfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class = "header-text">
+                <p>Leader | Problem Solver | Creator </p>
+                <h1>Hi, I'm <span>Shayan.</span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!------ about ----------------->
+    <div id = "about">
+        <div class="container">
+            <div class = "row">
+                <div class = "about-col-1">
+                    <img src="images/shayanHeadShot-1.png">
+                </div>
+                <div class = "about-col-2">
+                    <h1 class = "sub-title"> About Me</h1>
+                    <br>
+                    <p>My name is Shayan Haque, and I am a freshman at The Johns Hopkins University</p>
+                    <br>
+                    <p>I enjoy most STEM classes whether it be Physics or Chemistry. However, it is Computer Science where I have truly found my passion.</p>
+                    <br>
+                    <p>Outside of the classroom, I love watching movies, reading books, and playing basketball. </p>
+                    <br>
+                    <br>
+                   
+
+                    
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick = "opentab('skills')"><strong>Leadership</strong></p>
+                        <p class = "tab-links" onclick = "opentab('Experience')"><strong>Experience</strong></p>
+                        <p class = "tab-links" onclick = "opentab('Education')"><strong>Education/Skills</strong></p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span><strong>Class of 2024 President</strong></span><br>2020 - Present</li>
+                            <li><span><strong>FRC Team 6911 Design Team Lead</strong></span><br>2021 - Present</li>
+                            <li><span><strong>Computer Science Club President</strong></span><br>2023 - Present</li>
+                            <li><span><strong>Computer Science Honor Society VP</strong></span><br>2022 - 2023</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "Experience">
+                        <ul>
+                            <li><span><strong>Werfen Diagnostics</strong></span><br>STEM Intern (2023) </li>
+                            <li><span><strong>VDart Inc.</strong></span><br>Data Science Intern (Summer 2021) </li>
+                            <li><span><strong>Pozitive Planet</strong></span><br>Computer Science Intern (2022 - Present)</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "Education">
+                        <ul>
+                            <li><span><strong>2020-2024</strong></span><br>Tappan Zee High School<br>GPA: 103.22 | Valedictorian </li>
+                            <li><span><strong>Coding Languages</strong></span><br>Python, Java, JavaScript, HTML, CSS</li>
+                            <li><span><strong>CAD</strong></span><br>Fusion 360, Autodesk Inventor, AutoCAD</li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!------tutoring-----------
+<div id="tutoring">
+    <div class="container">
+        <h1 class = "sub-title">Tutoring</h1>
+        <div class = "services-list">
+            <div>
+                <h2>Robotics/CS Tutoring</h2>
+                <p>I will tutor</p>
+                <p>I will tutor</p>
+                <p>I will tutor</p>
+                <p>I will tutor</p>
+                <p>I will tutor</p>
+                <p>I will tutor</p>
+
+                <a href = "#">learn more</a>
+            </div>
+            <div>
+                <h2>AP Test Tutoring</h2>
+                <p>I will tutor</p>
+                <a href = "#">learn more</a>
+            </div>
+            <div>
+             <h2>SAT Prep Tutoring</h2>
+                <p>I will tutor</p>
+                <a href = "#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+----->
+<!---------portfolio------->
+<div id = "porfolio">
+    <div class = "container">
+        <h1 class = "sub-title"> My Work</h1>
+        <div class = "work-list">
+            
+         <div class = "work">
+            <img src = "images/ourYear.png">
+            <div class = "layer">
+                <h3>FRC Team 6911 Robot Design (2024)</h3> 
+                <p>These are images of the design of the swerve drivetrain we are planning to use this year</p>
+                <a href = "https://drive.google.com/drive/folders/1W4FDNBJ3VT49HZQf_B7BKxGRUbNanZQw?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+         </div>
+         <div class = "work">
+            <img src = "images/myYear.png">
+            <div class = "layer">
+                <h3>FRC Team 6911 Robot Design (2023)</h3> 
+                <p>These are the renderings of our 2023 FRC competition robot I designed</p>
+                <a href = "https://drive.google.com/drive/folders/1xr1VYDcS6fMUf4Hq98VqhII-2af89aaU?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+         <div class = "work">
+            <img src = "images/werfen.png">
+            <div class = "layer">
+                <h3>Werfen Robot (2023)</h3> 
+                <p>This was a robot/team mascot I helped design for the medical diagnostics company Werfen</p>
+                <a href = "https://drive.google.com/drive/folders/1bZS8KjdEvpsoeMipmWqKwRPaqKOVhGau?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+         <div class = "work">
+            <img src = "images/sodoku.png">
+            <div class = "layer">
+                <h3>Sodoku (2023)</h3> 
+                <p>This game allows users to progress through Sodoku levels with the ability to choose harder or easier grids </p>
+                <a href = "https://drive.google.com/file/d/158PT4pAqNeTgooG_Mgz1oeLX4rFl2BPP/view?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+
+         <div class = "work">
+            <img src = "images/gioYear.png">
+            <div class = "layer">
+                <h3>FRC Team 6911 Robot Design (2022)</h3> 
+                <p>These are the renderings of our 2022 FRC competition robot I helped design</p>
+                <a href = "https://drive.google.com/drive/folders/1Qc_62ocrG0exNBbqlQ9WOUZlbHMtZaGp?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+
+         <div class = "work">
+            <img src = "images/KFL.png">
+            <div class = "layer">
+                <h3>Football Manager App (2022)</h3> 
+                <p>This game allows users to experience what it is like to manage a football team from balancing budgets to making cuts</p>
+                <a href = "https://drive.google.com/drive/folders/1yFKtPP3feMfaChNzWNGQo_5q63exT-fU?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+         <div class = "work">
+            <img src = "images/madness.png">
+            <div class = "layer">
+                <h3>Moss Madness (2022)</h3> 
+                <p>This game allows you and a friend to play football against each other</p>
+                <a href = "https://drive.google.com/file/d/1TBfBTzyXwSYeeF_Ia3Nn6Yr2mw8jE_ss/view?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+         <div class = "work">
+            <img src = "images/betterOlympics.png">
+            <div class = "layer">
+                <h3>Olympic App (2021)</h3> 
+                <p>This app filters through data to organize the past olympics winners in a useful way</p>
+                <a href = "https://drive.google.com/file/d/1ShXHkpraVY_3MkkYc1lVTr_tAuMqRiJd/view?usp=sharing" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+         <div class = "work">
+            <img src = "images/mountainsApp.png">
+            <div class = "layer">
+                <h3>Mountains App (2020)</h3> 
+                <p>This app filters through datasets to allow users to explore mountains</p>
+                <a href = "https://studio.code.org/projects/applab/oBou_mOIbwh3YEr-SlttyganUPkE_dEs2230n1NnAIM" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+
+
+         <div class = "work">
+            <img src = "images/bacon.png">
+            <div class = "layer">
+                <h3>Steal the Bacon Game (2020)</h3> 
+                <p>This game is meant to simulate the popular children's game 'Steal the Bacon'</p>
+                <a href = "https://watch.screencastify.com/v/uq0oKOK6vDOWduYkruoB" target = "_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+
+        <div id = "load-more">Load More</div>
+    </div>
+</div>
+<!--fg----------contact-----gb-----gb---->
+<div id = "contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shayanhaque32@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>917-734-1504</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/shayanhaque_/" target = "_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/ShayanHaque3200" target = "_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                   <a href="www.linkedin.com/in/shayan-haque-5206b7281" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/Fixed- shayan resume copy.pdf" download class = "btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type = "text" name ="Name" placeholder="Your Name" required>
+                    <input type = "email" name = "email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class ="btn btn2">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks ){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents ){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+      let loadMoreBtn = document.querySelector('#load-more');
+let currentItem = 4;
+let workItems = document.querySelectorAll('.container .work-list .work');
+
+loadMoreBtn.onclick = () => {
+    for (let i = currentItem; i < currentItem + 4 && i < workItems.length; i++) {
+        workItems[i].style.display = 'inline-block';
+    }
+    currentItem += 4;
+
+    if (currentItem >= workItems.length) {
+        loadMoreBtn.style.display = 'none';
+    }
+}
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+    sidemenu.style.right = "-200px";
+    var icons = document.querySelectorAll('.fa-solid');
+    icons.forEach(function (icon) {
+        icon.style.display = 'none';
+    });
+}
+    </script>
+
+  </body>
+
+</html>
